@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        tools:context="br.iesb.contatos.CadastroActivity"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@android:drawable/sym_def_app_icon"
+            android:id="@+id/imageView" />
+
+        <TextView
+            android:text="Nome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/txtNomeCadastro"
+            android:hint="@string/Nome" />
+
+        <TextView
+            android:text="Email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4"
+            android:paddingBottom="0dp"
+            android:paddingTop="2dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/txtEmailCadastro"
+            android:hint="@string/Email" />
+
+        <TextView
+            android:text="Telefone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/textView5" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/txtTelefoneCadastro"
+            android:hint="@string/Telefone" />
+
+        <TextView
+            android:text="Endereco"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/textView6" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/txtEnderecoCadastro"
+            android:hint="@string/Endereco" />
+
+        <TextView
+            android:text="Senha"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/textView7" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/txtSenhaCadastro"
+            android:hint="********" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:text="CRIAR"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_SalvarFormulario"
+                android:layout_width="match_parent"
+                android:layout_weight="0.5"
+                android:layout_marginRight="2dp"
+                android:layout_marginLeft="2dp" />
+
+            <Button
+                android:text="Cancelar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_CancelarFormulario"
+                android:layout_weight="0.5"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

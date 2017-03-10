@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Contatos</string>
+    <string name="Nome">Usuario de Teste</string>
+    <string name="Email">usuario@email.com</string>
+    <string name="Telefone">xx-xxxxx-xxxx</string>
+    <string name="Endereco">L2 sul, Brasilia- DF</string>
+    <string name="butaofechar">FECHAR</string>
+</resources>
