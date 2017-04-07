@@ -23,8 +23,11 @@ public class PrincipalActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(DetailActivity.DETAIL_ACTIVITY_FILTER);
-                startActivity(i);
+             Intent x = new Intent(PrincipalActivity.this, DetailActivity.class );
+                Intent it = new Intent("CHAMAR_DETALHE");
+                it.addCategory("CATEGORIA_CONTATO");
+                it.putExtra("teste", "valor de teste");
+                startActivity(it);
 
             }
         });
